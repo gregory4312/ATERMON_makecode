@@ -4,14 +4,17 @@
 
 
 ``` ghost
+    
          agent.move(FORWARD, 1)
-    agent.turn(LEFT_TURN)
-})
+         agent.turn(LEFT_TURN)
+     
 ```
+
+
 
 ## Step 1
 
-We need to fix the Radio Tower. Use your agent to collect the resources on the map. Use multiple ``||agent: agent move forward||`` as well as ``||agent: agent turn||`` blocks. Careful, do it in a single run or else it won't work.
+We need to fix the Radio Tower. Use your agent to collect the resources on the map. Use multiple ``||agent: agent move forward||`` as well as ``||agent: agent turn||`` blocks and place them in the ``||Loops:on start||`` block. When you're finished, click **RUN**. Careful, do it in a single run or else it won't work.
 
 ### ~ Hint 
 You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||`` block. You also can use an ``||agent: agent turn||`` block to turn the Agent to the left or right.
@@ -35,7 +38,4 @@ You can change the number of steps your Agent will move by changing the number i
 })
 ```
 
-## Step 2
-
-Congratulations, you did it!
 
